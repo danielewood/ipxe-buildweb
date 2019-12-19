@@ -38,7 +38,7 @@ apt-get -y install libjson-perl libjson-any-perl libjson-xs-perl
 apt-get -y install binutils-dev genisoimage syslinux
 
 # Prepare the git buildweb repository
-mkdir -p /var/www && cd /var/www && git clone https://github.com/xbgmsharp/ipxe-buildweb.git
+mkdir -p /var/www && cd /var/www && git clone https://github.com/danielewood/ipxe-buildweb.git
 cd /var/www/ipxe-buildweb
 cp parseheaders.pl /var/tmp/ipxe/src/util/
 
