@@ -24,7 +24,7 @@ rm -rf /var/cache/ipxe-build/* /var/run/ipxe-build/* /var/tmp/ipxe-build/*
 apt-get -y install git-core
 
 # Prepare the git iPXE repository
-cd /var/tmp/ && rm -rf ipxe && git clone https://git.ipxe.org/ipxe.git
+cd /var/tmp/ && rm -rf ipxe && git clone https://github.com/danielewood/ipxe.git
 touch /var/run/ipxe-build/ipxe-build-cache.lock
 chown -R www-data:www-data /var/run/ipxe-build/ipxe-build-cache.lock /var/cache/ipxe-build /var/run/ipxe-build /var/tmp/ipxe-build /var/tmp/ipxe
 
